@@ -58,22 +58,22 @@ extension ViewController {
         let puppy = SampleSwipeableCellViewModel(title: "Bona",
                                                   subtitle: "Pho Noodle Soup",
                                                   color: UIColor(red:0.29, green:0.63, blue:0.49, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "bun-bo-huế-pho-bowl-canh-chua-chinese-cuisine-vietnam-cuisine"))
+                                                  image: #imageLiteral(resourceName: "pho"))
 
         let poop = SampleSwipeableCellViewModel(title: "Bar Luchador",
                                                   subtitle: "$2 Tacos",
                                                   color: UIColor(red:0.69, green:0.52, blue:0.38, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "korean-taco-carnitas-mexican-cuisine-al-pastor-mexican-tacos"))
+                                                  image: #imageLiteral(resourceName: "taco"))
 
         let robot = SampleSwipeableCellViewModel(title: "Zenbox",
                                                   subtitle: "Tonkatsu Ramen",
                                                   color: UIColor(red:0.90, green:0.99, blue:0.97, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "mie-ramen-png-free-transparent-png-download-pngkey-ramen-png-820_702"))
+                                                  image: #imageLiteral(resourceName: "ramen"))
 
         let clown = SampleSwipeableCellViewModel(title: "Pazzaluna",
                                                   subtitle: "Fettuccine Alfredo",
                                                   color: UIColor(red:0.83, green:0.82, blue:0.69, alpha:1.0),
-                                                  image: #imageLiteral(resourceName: "imgbin-carbonara-pasta-bolognese-sauce-fettuccine-alfredo-cream-tagliatelle-qKHqtcuJMu2h9dzVScbAKdTeB"))
+                                                  image: #imageLiteral(resourceName: "alfredo"))
 
         return [hamburger, panda, puppy, poop, robot, clown]
     }
