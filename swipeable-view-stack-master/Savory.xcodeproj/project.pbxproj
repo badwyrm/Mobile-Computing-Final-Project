@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A4806984238DE566005281D4 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4806979238DE55B005281D4 /* pop.framework */; };
-		A4806997238DE5CE005281D4 /* Pods_Swipeable_View_Stack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4806994238DE5BF005281D4 /* Pods_Swipeable_View_Stack.framework */; };
-		D1DB4F6F686EE90C7F0A31C5 /* Pods_Swipeable_View_Stack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */; };
+		A48069A5239A2D58005281D4 /* Pods_Swipeable_View_Stack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4806994238DE5BF005281D4 /* Pods_Swipeable_View_Stack.framework */; };
 		F7312C3F1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */; };
 		F7312C411F9C4C3A00A39DDA /* StaticShadowHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */; };
 		F7A387071F9BB6E400EF5B45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A387061F9BB6E400EF5B45 /* AppDelegate.swift */; };
@@ -108,7 +106,7 @@
 		A8862332D7E886ADB81FEDFB /* Pods_Swipeable_View_Stack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swipeable_View_Stack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticShadowHeaderView.swift; sourceTree = "<group>"; };
 		F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticShadowHeaderView.xib; sourceTree = "<group>"; };
-		F7A387031F9BB6E400EF5B45 /* Swipeable-View-Stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swipeable-View-Stack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A387031F9BB6E400EF5B45 /* Savory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Savory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A387061F9BB6E400EF5B45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A387081F9BB6E400EF5B45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7A3870B1F9BB6E400EF5B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,9 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4806997238DE5CE005281D4 /* Pods_Swipeable_View_Stack.framework in Frameworks */,
-				A4806984238DE566005281D4 /* pop.framework in Frameworks */,
-				D1DB4F6F686EE90C7F0A31C5 /* Pods_Swipeable_View_Stack.framework in Frameworks */,
+				A48069A5239A2D58005281D4 /* Pods_Swipeable_View_Stack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +197,7 @@
 		F7A387041F9BB6E400EF5B45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7A387031F9BB6E400EF5B45 /* Swipeable-View-Stack.app */,
+				F7A387031F9BB6E400EF5B45 /* Savory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7A387021F9BB6E400EF5B45 /* Swipeable-View-Stack */ = {
+		F7A387021F9BB6E400EF5B45 /* Savory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7A387151F9BB6E400EF5B45 /* Build configuration list for PBXNativeTarget "Swipeable-View-Stack" */;
+			buildConfigurationList = F7A387151F9BB6E400EF5B45 /* Build configuration list for PBXNativeTarget "Savory" */;
 			buildPhases = (
 				9FB8277CA98183B02FB8BC48 /* [CP] Check Pods Manifest.lock */,
 				F7A386FF1F9BB6E400EF5B45 /* Sources */,
@@ -254,9 +250,9 @@
 			);
 			dependencies = (
 			);
-			name = "Swipeable-View-Stack";
+			name = Savory;
 			productName = "Swipeable-View-Stack";
-			productReference = F7A387031F9BB6E400EF5B45 /* Swipeable-View-Stack.app */;
+			productReference = F7A387031F9BB6E400EF5B45 /* Savory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +263,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Phill Farrugia";
+				ORGANIZATIONNAME = "Andrew Tran";
 				TargetAttributes = {
 					F7A387021F9BB6E400EF5B45 = {
 						CreatedOnToolsVersion = 9.0;
@@ -276,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7A386FE1F9BB6E400EF5B45 /* Build configuration list for PBXProject "Swipeable-View-Stack" */;
+			buildConfigurationList = F7A386FE1F9BB6E400EF5B45 /* Build configuration list for PBXProject "Savory" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -299,7 +295,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				F7A387021F9BB6E400EF5B45 /* Swipeable-View-Stack */,
+				F7A387021F9BB6E400EF5B45 /* Savory */,
 			);
 		};
 /* End PBXProject section */
@@ -606,10 +602,10 @@
 				DEVELOPMENT_TEAM = 6VSG94VVFH;
 				INFOPLIST_FILE = "Swipeable-View-Stack/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Augsburg.Swipeable-View-Stack";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Augsburg.Savory;
+				PRODUCT_NAME = Savory;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -622,17 +618,17 @@
 				DEVELOPMENT_TEAM = 6VSG94VVFH;
 				INFOPLIST_FILE = "Swipeable-View-Stack/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Augsburg.Swipeable-View-Stack";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Augsburg.Savory;
+				PRODUCT_NAME = Savory;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7A386FE1F9BB6E400EF5B45 /* Build configuration list for PBXProject "Swipeable-View-Stack" */ = {
+		F7A386FE1F9BB6E400EF5B45 /* Build configuration list for PBXProject "Savory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7A387131F9BB6E400EF5B45 /* Debug */,
@@ -641,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7A387151F9BB6E400EF5B45 /* Build configuration list for PBXNativeTarget "Swipeable-View-Stack" */ = {
+		F7A387151F9BB6E400EF5B45 /* Build configuration list for PBXNativeTarget "Savory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7A387161F9BB6E400EF5B45 /* Debug */,
