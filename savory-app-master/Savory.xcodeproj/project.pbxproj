@@ -185,11 +185,11 @@
 		F7A386FA1F9BB6E400EF5B45 = {
 			isa = PBXGroup;
 			children = (
-				A480698E238DE5BF005281D4 /* Pods.xcodeproj */,
-				A480696C238DE55B005281D4 /* pop.xcodeproj */,
 				F7A387051F9BB6E400EF5B45 /* Swipeable-View-Stack */,
 				F7A387041F9BB6E400EF5B45 /* Products */,
 				CB8DF363A14BCAD82E1C207B /* Pods */,
+				A480698E238DE5BF005281D4 /* Pods.xcodeproj */,
+				A480696C238DE55B005281D4 /* pop.xcodeproj */,
 				BF70FC3528C4AD7795EE2E29 /* Frameworks */,
 			);
 			sourceTree = "<group>";

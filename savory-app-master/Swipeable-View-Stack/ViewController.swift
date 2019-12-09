@@ -50,32 +50,32 @@ extension ViewController {
                                                      color: UIColor(red:0.96, green:0.81, blue:0.46, alpha:1.0),
                                                      image: #imageLiteral(resourceName: "shutterstock_1036017343-e1572439851141"))
 
-        let panda = SampleSwipeableCellViewModel(title: "Kowloon",
+        let chicken = SampleSwipeableCellViewModel(title: "Kowloon",
                                                   subtitle: "General Tso's Chicken",
                                                   color: UIColor(red:0.29, green:0.64, blue:0.96, alpha:1.0),
                                                   image: #imageLiteral(resourceName: "1460722691-delish-general-tso"))
 
-        let puppy = SampleSwipeableCellViewModel(title: "Bona",
+        let pho = SampleSwipeableCellViewModel(title: "Bona",
                                                   subtitle: "Pho Noodle Soup",
                                                   color: UIColor(red:0.29, green:0.63, blue:0.49, alpha:1.0),
                                                   image: #imageLiteral(resourceName: "pho"))
 
-        let poop = SampleSwipeableCellViewModel(title: "Bar Luchador",
+        let taco = SampleSwipeableCellViewModel(title: "Bar Luchador",
                                                   subtitle: "$2 Tacos",
                                                   color: UIColor(red:0.69, green:0.52, blue:0.38, alpha:1.0),
                                                   image: #imageLiteral(resourceName: "taco"))
 
-        let robot = SampleSwipeableCellViewModel(title: "Zenbox",
+        let ramen = SampleSwipeableCellViewModel(title: "Zenbox",
                                                   subtitle: "Tonkatsu Ramen",
                                                   color: UIColor(red:0.90, green:0.99, blue:0.97, alpha:1.0),
                                                   image: #imageLiteral(resourceName: "ramen"))
 
-        let clown = SampleSwipeableCellViewModel(title: "Pazzaluna",
+        let pasta = SampleSwipeableCellViewModel(title: "Pazzaluna",
                                                   subtitle: "Fettuccine Alfredo",
                                                   color: UIColor(red:0.83, green:0.82, blue:0.69, alpha:1.0),
                                                   image: #imageLiteral(resourceName: "alfredo"))
 
-        return [hamburger, panda, puppy, poop, robot, clown]
+        return [hamburger, chicken, pho, taco, ramen, pasta]
     }
 
 }
