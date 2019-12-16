@@ -165,7 +165,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4F6927823A7F0640075E8D6 /* Facebook Pop Animation Drivers */ = {
+		A4F6927923A7F4690075E8D6 /* Facebook POP Animation Drivers */ = {
 			isa = PBXGroup;
 			children = (
 				F7FC2D041F9C355300EEF1CE /* SampleSwipeableCard.swift */,
@@ -176,7 +176,7 @@
 				F7A3871E1F9BB8D800EF5B45 /* NibView.swift */,
 				F7312C3E1F9C4C2D00A39DDA /* StaticShadowHeaderView.swift */,
 			);
-			name = "Facebook Pop Animation Drivers";
+			path = "Facebook POP Animation Drivers";
 			sourceTree = "<group>";
 		};
 		BF70FC3528C4AD7795EE2E29 /* Frameworks */ = {
@@ -232,7 +232,7 @@
 				F7FC2D061F9C355C00EEF1CE /* SampleSwipeableCard.xib */,
 				F7A3871C1F9BB87900EF5B45 /* SwipeableCardViewCard.xib */,
 				F7312C401F9C4C3A00A39DDA /* StaticShadowHeaderView.xib */,
-				A4F6927823A7F0640075E8D6 /* Facebook Pop Animation Drivers */,
+				A4F6927923A7F4690075E8D6 /* Facebook POP Animation Drivers */,
 				F7A3870D1F9BB6E400EF5B45 /* Assets.xcassets */,
 				F7A3870F1F9BB6E400EF5B45 /* LaunchScreen.storyboard */,
 				F7A387121F9BB6E400EF5B45 /* Info.plist */,
