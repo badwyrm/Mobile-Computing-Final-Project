@@ -598,12 +598,14 @@
 			baseConfigurationReference = 37304D7E784FC84C5165D0E5 /* Pods-Swipeable-View-Stack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VSG94VVFH;
 				INFOPLIST_FILE = "Swipeable-View-Stack/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Augsburg.Savory;
 				PRODUCT_NAME = Savory;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -614,6 +616,7 @@
 			baseConfigurationReference = 5F8C8FF1559E3E60CA5906FD /* Pods-Swipeable-View-Stack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VSG94VVFH;
 				INFOPLIST_FILE = "Swipeable-View-Stack/Info.plist";
