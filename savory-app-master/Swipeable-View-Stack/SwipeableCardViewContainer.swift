@@ -11,7 +11,6 @@ import UIKit
 class SwipeableCardViewContainer: UIView, SwipeableViewDelegate {
 
     static let horizontalInset: CGFloat = 12.0
-
     static let verticalInset: CGFloat = 12.0
 
     var dataSource: SwipeableCardViewDataSource? {

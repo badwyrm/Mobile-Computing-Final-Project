@@ -96,38 +96,20 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bWd-gI-hlT">
                                 <rect key="frame" x="96.666666666666671" y="287" width="181.66666666666663" height="238"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="McDonald's" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63z-CB-Bhx">
-                                        <rect key="frame" x="0.0" y="0.0" width="181.66666666666666" height="39.666666666666664"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kowloon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gl-4F-hS8">
-                                        <rect key="frame" x="0.0" y="39.666666666666686" width="181.66666666666666" height="39.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="181.66666666666666" height="79.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bona" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mx-sl-her">
-                                        <rect key="frame" x="0.0" y="79.333333333333314" width="181.66666666666666" height="39.666666666666657"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bar Luchador" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qwq-EG-2mL">
-                                        <rect key="frame" x="0.0" y="119.00000000000001" width="181.66666666666666" height="39.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="79.333333333333314" width="181.66666666666666" height="79.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zenbox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWx-6d-vox">
-                                        <rect key="frame" x="0.0" y="158.66666666666669" width="181.66666666666666" height="39.666666666666657"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pazzaluna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UDC-zT-Z0z">
-                                        <rect key="frame" x="0.0" y="198.33333333333331" width="181.66666666666666" height="39.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="158.66666666666669" width="181.66666666666666" height="79.333333333333314"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>

@@ -20,8 +20,6 @@ class ViewController: UIViewController, SwipeableCardViewDataSource {
 
 }
 
-// MARK: - SwipeableCardViewDataSource
-
 extension ViewController {
 
     func numberOfCards() -> Int {
