@@ -10,19 +10,11 @@ import UIKit
 
 extension UIView {
 
-    /// Adds a view as a subview and constrains it to the edges
-    /// of its new containing view.
-    ///
-    /// - Parameter view: view to add as subview and constrain
     internal func addEdgeConstrainedSubView(view: UIView) {
         addSubview(view)
         edgeConstrain(subView: view)
     }
 
-    /// Constrains a given subview to all 4 sides
-    /// of its containing view with a constant of 0.
-    ///
-    /// - Parameter subView: view to constrain to its container
     internal func edgeConstrain(subView: UIView) {
         subView.translatesAutoresizingMaskIntoConstraints = false
 

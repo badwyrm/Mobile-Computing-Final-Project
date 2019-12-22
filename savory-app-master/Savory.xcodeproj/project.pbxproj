@@ -168,6 +168,7 @@
 		A4F6927923A7F4690075E8D6 /* Facebook POP Animation Drivers */ = {
 			isa = PBXGroup;
 			children = (
+				F7A3871A1F9BB85100EF5B45 /* SwipeableCardViewCard.swift */,
 				F7FC2D041F9C355300EEF1CE /* SampleSwipeableCard.swift */,
 				F7FC2CF61F9BC94400EEF1CE /* SwipeableView.swift */,
 				F7FC2CF81F9BD6D800EEF1CE /* SwipeDirection.swift */,
@@ -224,7 +225,6 @@
 				F7A387181F9BB80100EF5B45 /* SwipeableCardViewContainer.swift */,
 				F7FC2D021F9C144300EEF1CE /* SwipeableCardViewDelegate.swift */,
 				F7A387221F9BB93400EF5B45 /* SwipeableCardViewDataSource.swift */,
-				F7A3871A1F9BB85100EF5B45 /* SwipeableCardViewCard.swift */,
 				F7FC2D001F9C132F00EEF1CE /* SwipeableViewDelegate.swift */,
 				F7A387201F9BB8FB00EF5B45 /* UIView+Constraints.swift */,
 				F7FC2D081F9C38F800EEF1CE /* SampleSwipeableCellViewModel.swift */,

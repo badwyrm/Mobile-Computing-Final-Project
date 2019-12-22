@@ -39,6 +39,7 @@ extension ViewController {
 
 }
 
+//card object array
 extension ViewController {
 
     var viewModels: [SampleSwipeableCellViewModel] {

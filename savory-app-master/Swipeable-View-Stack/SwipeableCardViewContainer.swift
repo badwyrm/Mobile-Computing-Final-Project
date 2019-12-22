@@ -37,10 +37,9 @@ class SwipeableCardViewContainer: UIView, SwipeableViewDelegate {
         backgroundColor = .clear
         translatesAutoresizingMaskIntoConstraints = false
     }
+    
+    // Reloads the data used to layout card views in the card stack. Removes all existing card views and calls the dataSource to layout new card views.
 
-    /// Reloads the data used to layout card views in the
-    /// card stack. Removes all existing card views and
-    /// calls the dataSource to layout new card views.
     func reloadData() {
         removeAllCardViews()
         guard let dataSource = dataSource else {
@@ -75,14 +74,9 @@ class SwipeableCardViewContainer: UIView, SwipeableViewDelegate {
         }
         cardViews = []
     }
-
-    /// Sets the frame of a card view provided for a given index. Applies a specific
-    /// horizontal and vertical offset relative to the index in order to create an
-    /// overlay stack effect on a series of cards.
-    ///
-    /// - Parameters:
-    ///   - cardView: card view to update frame on
-    ///   - index: index used to apply horizontal and vertical insets
+    
+    // Sets the frame of a card view provided for a given index. Applies a specific horizontal and vertical offset relative to the index in order to create an overlay stack effect on a series of cards.
+    
     private func setFrame(forCardView cardView: SwipeableCardViewCard, atIndex index: Int) {
         var cardViewFrame = bounds
         let horizontalInset = (CGFloat(index) * SwipeableCardViewContainer.horizontalInset)
@@ -97,7 +91,6 @@ class SwipeableCardViewContainer: UIView, SwipeableViewDelegate {
 
 }
 
-// MARK: - SwipeableViewDelegate
 
 extension SwipeableCardViewContainer {
 

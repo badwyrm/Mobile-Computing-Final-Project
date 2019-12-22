@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="410" y="-255"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Home-->
         <scene sceneID="g4l-Cc-HWq">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iZX-uC-Roi" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iZX-uC-Roi" userLabel="Home" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lMd-Kv-kCO">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -85,43 +85,14 @@
             </objects>
             <point key="canvasLocation" x="-476" y="148"/>
         </scene>
-        <!--View Controller-->
+        <!--My Plate-->
         <scene sceneID="2xu-Sp-cjf">
             <objects>
-                <viewController id="aPU-SL-R2T" sceneMemberID="viewController">
+                <viewController id="aPU-SL-R2T" userLabel="My Plate" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gUO-GX-rg5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bWd-gI-hlT">
-                                <rect key="frame" x="96.666666666666671" y="287" width="181.66666666666663" height="238"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kowloon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gl-4F-hS8">
-                                        <rect key="frame" x="0.0" y="0.0" width="181.66666666666666" height="79.333333333333329"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bona" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mx-sl-her">
-                                        <rect key="frame" x="0.0" y="79.333333333333314" width="181.66666666666666" height="79.333333333333314"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zenbox" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWx-6d-vox">
-                                        <rect key="frame" x="0.0" y="158.66666666666669" width="181.66666666666666" height="79.333333333333314"/>
-                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="33"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="238" id="6B7-BK-HCn"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="181.66999999999999" id="FA0-fK-7hM"/>
-                                    <constraint firstAttribute="width" constant="181.66999999999999" id="aUW-es-jys"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="238" id="ccv-Wj-FOt"/>
-                                </constraints>
-                            </stackView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Plate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHd-B6-8RQ">
                                 <rect key="frame" x="35" y="57" width="178" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -131,10 +102,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="bWd-gI-hlT" firstAttribute="centerY" secondItem="gUO-GX-rg5" secondAttribute="centerY" id="BT8-Yw-8pO"/>
-                            <constraint firstItem="bWd-gI-hlT" firstAttribute="centerX" secondItem="gUO-GX-rg5" secondAttribute="centerX" id="viS-IK-o1q"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4Cp-6k-rsq"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="grid-tab" id="z59-y0-jSB"/>
@@ -143,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="581.60000000000002" y="405.66502463054189"/>
         </scene>
-        <!--View Controller-->
+        <!--Restaurants-->
         <scene sceneID="d7K-7b-aRH">
             <objects>
-                <viewController id="Drl-1w-bDr" sceneMemberID="viewController">
+                <viewController id="Drl-1w-bDr" userLabel="Restaurants" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CCt-bn-Zxq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,10 +126,10 @@
             </objects>
             <point key="canvasLocation" x="-68" y="856"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="epp-FA-1EP">
             <objects>
-                <viewController id="R4d-0o-GOv" sceneMemberID="viewController">
+                <viewController id="R4d-0o-GOv" userLabel="Profile" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="79Z-O6-nWB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,10 +162,10 @@
             </objects>
             <point key="canvasLocation" x="-1298" y="225"/>
         </scene>
-        <!--View Controller-->
+        <!--Social Feed-->
         <scene sceneID="Z10-64-klK">
             <objects>
-                <viewController id="Ygp-Nr-7Lu" sceneMemberID="viewController">
+                <viewController id="Ygp-Nr-7Lu" userLabel="Social Feed" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X7H-ag-AM0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
